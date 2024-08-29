@@ -1,0 +1,32 @@
+programa {
+  inclua biblioteca Matematica --> m
+  funcao inicio() {
+
+    inteiro A, B, C
+    real Delta, X1, X2
+    
+    escreva("Me diga um valor para A \n")
+    leia(A) 
+
+    escreva("Agora me de um valor para B \n")
+    leia(B)
+
+    escreva("Me de um último valor para C \n")
+    leia(C)
+
+    Delta = (B*B) + (-4*A*C)
+
+    X1 = (-B + m.raiz(Delta,2))/2*A
+    X2 = (-B - m.raiz(Delta,2))/2*A
+
+    escreva("O valor de A é ", A, "\n")
+    escreva("O valor de B é ", B, "\n")
+    escreva("O valor de C é ", C, "\n") 
+    escreva("O valor de Delta é ", Delta, "\n")
+    escreva("O valor de X1 é ", X1, " e o valor de X2 é ", X2)
+
+
+    
+  }
+}
+
