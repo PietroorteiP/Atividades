@@ -1,0 +1,25 @@
+programa {
+  funcao inicio() {
+    inteiro dias_alugados
+    real preco_total, km_rodado
+    const inteiro preco_dia = 60
+    const real preco_km = 0.15
+
+    escreva("Quantos km vc ando com essa parada ai? \n")
+    leia(km_rodado)
+    escreva("Por quantos dias vc alugo? \n")
+    leia(dias_alugados)
+
+    km_rodado = km_rodado * preco_km
+    dias_alugados = dias_alugados * preco_dia
+
+    preco_total = km_rodado + dias_alugados
+
+    escreva("Você terá que pagar ", preco_total, " reais")
+
+
+
+
+    
+  }
+}
