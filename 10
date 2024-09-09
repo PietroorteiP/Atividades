@@ -9,7 +9,7 @@ programa {
       a_mais = velo - 80
       multa = a_mais*7
 
-      escreva("O senhor ser· multado em ", multa, "reais")
+      escreva("O senhor ser√° multado em ", multa, "reais")
     }senao{
       escreva("Tu ta limpo")
     }
