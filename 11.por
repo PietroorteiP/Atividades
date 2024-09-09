@@ -1,0 +1,25 @@
+programa {
+  funcao inicio() {
+
+    real notaA, notaB, media
+
+    escreva("Insira a sua primeira nota \n")
+    leia(notaA)
+
+    escreva("E a sua segunda nota \n")
+    leia(notaB)
+
+    media = (notaA + notaB)/2
+
+    se(media > 7 e media < 10)
+    escreva("Se ta aprovado")
+
+    se(media < 7)
+    escreva("Se ta reprovado")
+
+    se(media == 10)
+    escreva("Parabéns,sim, só isso")
+  }
+
+
+}
