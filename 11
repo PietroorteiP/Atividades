@@ -18,7 +18,7 @@ programa {
     escreva("Se ta reprovado")
 
     se(media == 10)
-    escreva("Parabéns,sim, só isso")
+    escreva("ParabÃ©ns,sim, sÃ³ isso")
   }
 
 
