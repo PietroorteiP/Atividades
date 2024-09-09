@@ -6,11 +6,11 @@ programa {
     leia(ano)
 
    se(ano % 4 == 0){
-   escreva("Esse ano é bissexto")
+   escreva("Esse ano Ã© bissexto")
    } senao se(ano == 0 ou ano < 0){
-   escreva("Esse ano é bissexto")
+   escreva("Esse ano Ã© bissexto")
    }senao {
-    escreva("Esse ano não é bissexto")
+    escreva("Esse ano nÃ£o Ã© bissexto")
    }
 
   }
